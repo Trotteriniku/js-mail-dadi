@@ -1,5 +1,7 @@
 Mail
-Chiedi all’utente la sua email,
+Chiedi all’utente la sua email, [x]
+
+<!-- devo creare una lista che appunto conterra diverse email di esempio inclusa quella che verrà inserita usando una const-array dove verrano aggiunte -->
 controlla che sia nella lista di chi può accedere,
 stampa un messaggio appropriato sull’esito del controllo.
 Gioco dei dadi

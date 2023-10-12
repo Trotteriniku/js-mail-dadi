@@ -1,0 +1,1 @@
+const employeMail = ['example@1.com','example@2.com','example@3.com','example@4.com']
