@@ -7,7 +7,7 @@ const employeMail = ['example@1.com','example@2.com','example@3.com','example@4.
 const mailValue = document.getElementById('email').value;
 const alertText =document.getElementById('alertText')
 let alert =document.querySelector('.alert')
-    
+
         if (employeMail.includes(mailValue)) {
            alert.classList.add('alert-success')
             alertText.innerText= 'Bentornato' 
@@ -20,3 +20,14 @@ let alert =document.querySelector('.alert')
         
 })
    
+// DADI
+const spinbtn=document.getElementById('dicebtn')
+const dicespin = Math.floor((Math.random() * 6) + 1);
+
+spinbtn.addEventListener('click',function () {
+   
+    const dice =document.querySelector('.dice')
+    dice.innerText= dicespin
+})
+
+console.log(dicespin);
